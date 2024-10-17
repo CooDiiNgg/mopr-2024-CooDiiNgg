@@ -1,6 +1,10 @@
 import pytest
+import os
 
-from .. import src
+path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "../")
+os.chdir(path)
+
+import src
 
 @pytest.mark.parametrize("word1, word2, word3, expected", [("cat", "cats", "dog", "dogs"), ("life", "death", "black", "white"), ("sky", "bird", "ocean", "fish")])
 def test_find_common_meaning(word1, word2, word3, expected):
