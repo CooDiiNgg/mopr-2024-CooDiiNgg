@@ -22,19 +22,19 @@ The purpose of this project is to implement various functions that work with wor
 
 2. **Analogy**: Calculates D, when A is to B as C is to D.
 
-    $$ D = B - A + C $$
+    $$ \text{D = B - A + C} $$
 
     Source: [Wikipedia - Analogy](https://en.wikipedia.org/wiki/Analogy)
 
 3. **Dot Product**: Calculates the dot product of two vectors.
 
-    $$ A \cdot B = \sum_{i=1}^{n} A_i B_i $$
+    $$ \text{A} \cdot \text{B} = \sum_{i=1}^{n} A_i B_i $$
 
     Source: [Wikipedia - Dot Product](https://en.wikipedia.org/wiki/Dot_product)
 
 4. **Magnitude**: Calculates the magnitude of a vector.
 
-    $$ \|A\| = \sqrt{\sum_{i=1}^{n} A_i^2} $$
+    $$ \|A\| = \sqrt{A \cdot A} $$
 
     Source: [Wikipedia - Euclidean Norm](https://en.wikipedia.org/wiki/Norm_(mathematics)#Euclidean_norm)
 
