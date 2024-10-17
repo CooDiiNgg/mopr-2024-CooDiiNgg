@@ -66,7 +66,7 @@ from src import *
 model = load_model("homework_vectors_assignment/word_embeddings.json")
 
 word1 = "king"
-word2 = "queen
+word2 = "queen"
 
 similarity = calculate_similarity(model, word1, word2) # result is from -1 to 1
 print(f"The similarity between {word1} and {word2} is {similarity}")
