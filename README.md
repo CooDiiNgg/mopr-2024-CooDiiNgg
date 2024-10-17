@@ -16,7 +16,7 @@ The purpose of this project is to implement various functions that work with wor
 
 1. **Cosine Similarity**: Measures the cosine of the angle between two vectors.
 
-    $\text{cosine\_similarity}(A, B) = \frac{A \cdot B}{\|A\| \|B\|}$ 
+    $\text{cosine similarity}(A, B) = \frac{A \cdot B}{\|A\| \|B\|}$ 
 
     Source: [Wikipedia - Cosine Similarity](https://en.wikipedia.org/wiki/Cosine_similarity)
 
