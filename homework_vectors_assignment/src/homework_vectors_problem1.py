@@ -19,7 +19,8 @@ def load_model(file_path):
 def calculate_similarity(model, base_word, target_word):
     # Returns the cos of the angle between the two vectors
     # cos(theta) = (A . B) / (|A| * |B|), source: https://en.wikipedia.org/wiki/Cosine_similarity
-    result = dot_product(model[base_word], model[target_word]) / (magnitude(model[base_word]) * magnitude(model[target_word]))
+    target = model[target_word] if type(target_word) == str else target_word
+    result = dot_product(model[base_word], target) / (magnitude(model[base_word]) * magnitude(target))
     result = round(result, 4)
     return result
     
