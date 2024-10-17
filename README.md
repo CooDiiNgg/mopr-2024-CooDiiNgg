@@ -15,9 +15,7 @@ The purpose of this project is to implement various functions that work with wor
 ## Formulas Used
 
 1. **Cosine Similarity**: Measures the cosine of the angle between two vectors.
-    \[
-    \text{cosine\_similarity}(A, B) = \frac{A \cdot B}{\|A\| \|B\|}
-    \]
+    $$\text{cosine\_similarity}(A, B) = \frac{A \cdot B}{\|A\| \|B\|}$$
     Source: [Wikipedia - Cosine Similarity](https://en.wikipedia.org/wiki/Cosine_similarity)
 
 2. **Analogy**: Calculates D, when A is to B as C is to D.
