@@ -17,5 +17,6 @@ def find_common_meaning(model, base_word, related_word, target_word):
 def load_model(file_path):
     file_path = "../../" + file_path
     file_path = os.path.join(os.path.dirname(__file__), file_path)
+    file_path = os.path.abspath(file_path)
     return homework_vectors_problem1.load_model(file_path)
 

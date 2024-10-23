@@ -2,3 +2,4 @@
 __pycache__/
 word_embeddings.json
 .pytest_cache/
+venv/
