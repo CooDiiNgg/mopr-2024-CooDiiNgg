@@ -20,3 +20,4 @@ import tests
 # print(src.find_common_meaning(model, word1, word2, target_word))
 
 tests.run_tests()
+

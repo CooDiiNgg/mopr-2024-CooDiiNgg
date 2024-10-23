@@ -37,7 +37,10 @@ jobs:
         run: |
           python -m pytest -vv
 
-      - name: Skip tests
+      - name: Run tests with other json file
         if: env.FILE_EXISTS == 'false'
         run: |
-          echo "Skipping tests"
+          cp homework_vectors_assignment/small.json homework_vectors_assignment/word_embeddings.json
+          python -m pytest -vv
+          rm homework_vectors_assignment/word_embeddings.json
+          
